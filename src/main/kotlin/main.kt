@@ -1,9 +1,10 @@
 fun main(
 
 ) {
-    val likes=21
-    var n:Char
-    n=likes.toString().last()
-    if (n=='1'){println("Понравилось "+ likes+" человеку")}else(println("Понравилось "+ likes+" людям"))
+    var likes = 66
+
+    if (likes % 10 == 1 && likes % 100 !== 11) {
+        println("Понравилось " + likes + " человеку")
+    } else (println("Понравилось " + likes + " людям"))
 
 }
